@@ -23,6 +23,7 @@ class AddFragment : Fragment() {
 
         dbHelper = DBHelper(context)
 
+
         binding.btnAdd.setOnClickListener {
             var amt = binding.edtAmt.text.toString().toInt()
             var category = binding.edtCategory.text.toString()
